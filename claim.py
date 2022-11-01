@@ -35,7 +35,7 @@ class Instagram:
     def change_title(self):
         if clear == "cls":
             ctypes.windll.kernel32.SetConsoleTitleW(
-                f"Instagram Auto Claimer | Attempts: {self.attempts} | Retries: {self.retries} | Proxy Errors: {self.proxy_errors} | Errors: {self.errors} | Developed by @useragents on Github"
+                f"Instagram Auto Claimer | Attempts: {self.attempts} | Retries: {self.retries} | Proxy Errors: {self.proxy_errors} | Errors: {self.errors}"
             )
     
     def safe_print(self, arg):
